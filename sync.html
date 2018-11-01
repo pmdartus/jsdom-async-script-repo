@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jsdom-async-script-repo</title>
+</head>
+<body>
+    <p>First</p>
+    <script>
+        console.log("sync 1:", document.querySelectorAll('p').length);
+    </script>
+    <p>Second</p>
+    <script>
+        console.log("sync 2:", document.querySelectorAll('p').length);
+    </script>
+</body>
+</html>
